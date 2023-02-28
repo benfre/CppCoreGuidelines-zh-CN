@@ -1,11 +1,11 @@
 [![C++ 核心指导方针](cpp_core_guidelines_logo_text.png)](https://isocpp.github.io/CppCoreGuidelines)
 
-# [C++ 核心指导方针](http://lynnboy.github.io/CppCoreGuidelines-zh-CN/CppCoreGuidelines)
+# [C++ 核心指导方针](http://benfr.github.io/CppCoreGuidelines-zh-CN/CppCoreGuidelines-zh-CN)
 
 >"Within C++ is a smaller, simpler, safer language struggling to get out."
 >-- <cite>Bjarne Stroustrup</cite>
 
-[《C++ 核心指导方针》（The C++ Core Guidelines）](CppCoreGuidelines.md)，与 C++ 语言本身一样，是由 Bjarne Stroustrup 领导的协作项目。
+[《C++ 核心指导方针》（The C++ Core Guidelines）](CppCoreGuidelines-zh-CN.md)，与 C++ 语言本身一样，是由 Bjarne Stroustrup 领导的协作项目。
 该指导方针是许多组织和团体之间耗费了大量人年的探讨和设计的心血成果。它们的设计着眼于普遍的适用性并鼓励广泛采纳，
 但您也可以对其进行随意的复制和修改，以满足您的团体组织自身的需要。
 
