@@ -12524,6 +12524,7 @@ C 风格的强制转换很危险，因为它可以进行任何种类的转换，
 
 ##### 示例
 
+{% raw %}
     class Shape { /* ... */ };
     class Circle : public Shape { /* ... */ Point c; int r; };
 
@@ -12539,6 +12540,7 @@ C 风格的强制转换很危险，因为它可以进行任何种类的转换，
     assign(c, c2);   // 噢，传递的并不是整个状态
     assert(c == c2); // 如果提供复制操作，就也得提供比较操作，
                      //   但这里很可能返回 false
+{% endraw %}
 
 这样的结果是无意义的，因为不会把中心和半径从 `c` 复制给 `s`。
 针对这个的第一条防线是[将基类 `Shape` 定义为不允许这样做](#Rc-copy-virtual)。
@@ -15867,6 +15869,7 @@ lambda 表达式会产生一个带有存储的闭包对象，它通常在运行�
 
 ##### 示例
 
+{% raw %}
     struct Foo {
         vector<Thing> v;
         File_handle f;
@@ -15878,6 +15881,7 @@ lambda 表达式会产生一个带有存储的闭包对象，它通常在运行�
         Foo bar {{Thing{1}, Thing{2}, Thing{monkey}}, {"my_file", "r"}, "Here we go!"};
         // ...
     }
+{% endraw %}
 
 这里，`vector` 和 `string` 的构造函数可能无法为其元素分配足够的内存，`vector` 的构造函数可能无法复制其初始化式列表中的 `Thing`，而 `File_handle` 可能无法打开所需的文件。
 这些情况中，它们都会抛出异常来让 `use()` 的调用者来处理。
