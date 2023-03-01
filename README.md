@@ -1,6 +1,6 @@
 [![C++ 核心指导方针](cpp_core_guidelines_logo_text.png)](https://isocpp.github.io/CppCoreGuidelines)
 
-# [C++ 核心指导方针](http://benfr.github.io/CppCoreGuidelines-zh-CN/CppCoreGuidelines-zh-CN)
+# [C++ 核心指导方针](http://benfre.github.io/CppCoreGuidelines-zh-CN/CppCoreGuidelines-zh-CN)
 
 >"Within C++ is a smaller, simpler, safer language struggling to get out."
 >-- <cite>Bjarne Stroustrup</cite>
